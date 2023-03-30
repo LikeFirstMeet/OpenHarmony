@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Toolbar"
+    },
+    {
+      "name": "entry_MainAbility",
+      "value": "Toolbar"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "jsonImage": "/common/poster.png"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "ohos.samples.galleryform",
+      "abilityName": "MainAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Tabs"
+    },
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    }
+  ]
+}
