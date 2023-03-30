@@ -1,0 +1,51 @@
+{
+    "name": "@ohos/camera_screensaver_app",
+    "description": "screensaver related samples for small system.",
+    "version": "3.1",
+    "license": "Apache License 2.0",
+    "publishAs": "code-segment",
+    "segment": {
+        "destPath": "applications/sample/camera/screensaver"
+    },
+    "dirs": {},
+    "scripts": {},
+    "component": {
+        "name": "camera_screensaver_app",
+        "subsystem": "applications",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [
+            "mini",
+            "small"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [
+                "ability_lite",
+                "bundle_framework_lite",
+                "surface",
+                "ui",
+                "graphic_utils",
+                "kv_store",
+                "syspara_lite",
+                "samgr_lite",
+                "utils_base"
+            ],
+            "third_party": [
+                "libjpeg",
+                "libpng",
+                "bounds_checking_function",
+                "cjson",
+                "giflib"
+            ]
+        },
+        "build": {
+            "sub_component": [
+                "//applications/sample/camera/screensaver:screensaver_hap"
+            ],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
